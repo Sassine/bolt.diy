@@ -68,6 +68,9 @@ export default defineConfig((config) => {
         },
       },
     },
+    server: {
+      allowedHosts: ['demo-deploy-boltdiy.kraxrn.easypanel.host'],
+    },
   };
 });
 
