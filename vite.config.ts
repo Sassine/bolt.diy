@@ -70,7 +70,7 @@ export default defineConfig((config) => {
     },
     server: {
       host: true,
-      allowedHosts: ['demo-deploy-boltdiy.kraxrn.easypanel.host'],
+      allowedHosts: 'all',
     },
   };
 });
